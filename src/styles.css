@@ -1,0 +1,167 @@
+.spotify-container {
+  display: flex;
+  height: 100vh;
+  background-color: #000;
+  color: white;
+}
+
+.sidebar {
+  width: 20%;
+  background-color: #121212;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.create-playlist {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.podcasts {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.podcasts h4 {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.podcasts p {
+  font-size: 12px;
+  color: gray;
+}
+
+.footer-links a {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+  color: gray;
+  text-decoration: none;
+}
+
+.footer-links a:hover {
+  color: white;
+}
+
+.language-btn {
+  margin-top: 20px;
+  padding: 5px 10px;
+  background: none;
+  border: 1px solid gray;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #282828;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.top-bar input {
+  width: 60%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.auth-buttons .signup-btn {
+  background: none;
+  color: white;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.auth-buttons .login-btn {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.popular-artists {
+  margin-top: 20px;
+}
+
+.popular-artists h2 {
+  font-size: 18px;
+}
+
+.artist-list {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.artist {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.artist-image {
+  padding-left: 2vh;
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+}
+
+.popular-albums {
+  margin-top: 30px;
+}
+
+.popular-albums h2 {
+  font-size: 18px;
+}
+
+.album-list {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.album {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  border-radius: 10px;
+}
+
+.view-all {
+  font-size: 14px;
+  text-decoration: none;
+  color: #1db954;
+  margin-left: 10px;
+}
+
+.view-all:hover {
+  text-decoration: underline;
+}
